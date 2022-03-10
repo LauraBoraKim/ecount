@@ -1,0 +1,8 @@
+D:\Ecount\Labs\OOPFrameWork\Ex15_abstract_interface\bin\Debug\Ex15_abstract_interface.exe.config
+D:\Ecount\Labs\OOPFrameWork\Ex15_abstract_interface\bin\Debug\Ex15_abstract_interface.exe
+D:\Ecount\Labs\OOPFrameWork\Ex15_abstract_interface\bin\Debug\Ex15_abstract_interface.pdb
+D:\Ecount\Labs\OOPFrameWork\Ex15_abstract_interface\obj\Debug\Ex15_abstract_interface.csproj.AssemblyReference.cache
+D:\Ecount\Labs\OOPFrameWork\Ex15_abstract_interface\obj\Debug\Ex15_abstract_interface.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\OOPFrameWork\Ex15_abstract_interface\obj\Debug\Ex15_abstract_interface.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\OOPFrameWork\Ex15_abstract_interface\obj\Debug\Ex15_abstract_interface.exe
+D:\Ecount\Labs\OOPFrameWork\Ex15_abstract_interface\obj\Debug\Ex15_abstract_interface.pdb

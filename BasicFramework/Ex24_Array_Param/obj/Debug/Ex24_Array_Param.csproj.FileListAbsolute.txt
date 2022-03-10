@@ -1,0 +1,8 @@
+D:\Ecount\Labs\BasicFrameWork\Ex24_Array_Param\bin\Debug\Ex24_Array_Param.exe.config
+D:\Ecount\Labs\BasicFrameWork\Ex24_Array_Param\bin\Debug\Ex24_Array_Param.exe
+D:\Ecount\Labs\BasicFrameWork\Ex24_Array_Param\bin\Debug\Ex24_Array_Param.pdb
+D:\Ecount\Labs\BasicFrameWork\Ex24_Array_Param\obj\Debug\Ex24_Array_Param.csproj.AssemblyReference.cache
+D:\Ecount\Labs\BasicFrameWork\Ex24_Array_Param\obj\Debug\Ex24_Array_Param.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\BasicFrameWork\Ex24_Array_Param\obj\Debug\Ex24_Array_Param.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\BasicFrameWork\Ex24_Array_Param\obj\Debug\Ex24_Array_Param.exe
+D:\Ecount\Labs\BasicFrameWork\Ex24_Array_Param\obj\Debug\Ex24_Array_Param.pdb

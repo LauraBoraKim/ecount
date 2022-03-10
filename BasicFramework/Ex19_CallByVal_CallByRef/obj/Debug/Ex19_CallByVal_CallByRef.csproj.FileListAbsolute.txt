@@ -1,0 +1,8 @@
+D:\Ecount\Labs\BasicFramework\Ex19_CallByVal_CallByRef\bin\Debug\Ex19_CallByVal_CallByRef.exe.config
+D:\Ecount\Labs\BasicFramework\Ex19_CallByVal_CallByRef\bin\Debug\Ex19_CallByVal_CallByRef.exe
+D:\Ecount\Labs\BasicFramework\Ex19_CallByVal_CallByRef\bin\Debug\Ex19_CallByVal_CallByRef.pdb
+D:\Ecount\Labs\BasicFramework\Ex19_CallByVal_CallByRef\obj\Debug\Ex19_CallByVal_CallByRef.csproj.AssemblyReference.cache
+D:\Ecount\Labs\BasicFramework\Ex19_CallByVal_CallByRef\obj\Debug\Ex19_CallByVal_CallByRef.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\BasicFramework\Ex19_CallByVal_CallByRef\obj\Debug\Ex19_CallByVal_CallByRef.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\BasicFramework\Ex19_CallByVal_CallByRef\obj\Debug\Ex19_CallByVal_CallByRef.exe
+D:\Ecount\Labs\BasicFramework\Ex19_CallByVal_CallByRef\obj\Debug\Ex19_CallByVal_CallByRef.pdb

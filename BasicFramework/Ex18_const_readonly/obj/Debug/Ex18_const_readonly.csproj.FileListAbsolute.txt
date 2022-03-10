@@ -1,0 +1,8 @@
+D:\Ecount\Labs\BasicFramework\Ex18_const_readonly\bin\Debug\Ex18_const_readonly.exe.config
+D:\Ecount\Labs\BasicFramework\Ex18_const_readonly\bin\Debug\Ex18_const_readonly.exe
+D:\Ecount\Labs\BasicFramework\Ex18_const_readonly\bin\Debug\Ex18_const_readonly.pdb
+D:\Ecount\Labs\BasicFramework\Ex18_const_readonly\obj\Debug\Ex18_const_readonly.csproj.AssemblyReference.cache
+D:\Ecount\Labs\BasicFramework\Ex18_const_readonly\obj\Debug\Ex18_const_readonly.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\BasicFramework\Ex18_const_readonly\obj\Debug\Ex18_const_readonly.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\BasicFramework\Ex18_const_readonly\obj\Debug\Ex18_const_readonly.exe
+D:\Ecount\Labs\BasicFramework\Ex18_const_readonly\obj\Debug\Ex18_const_readonly.pdb

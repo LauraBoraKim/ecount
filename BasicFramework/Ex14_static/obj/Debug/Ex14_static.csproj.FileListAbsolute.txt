@@ -1,0 +1,8 @@
+D:\Ecount\Labs\BasicFramework\Ex14_static\bin\Debug\Ex14_static.exe.config
+D:\Ecount\Labs\BasicFramework\Ex14_static\bin\Debug\Ex14_static.exe
+D:\Ecount\Labs\BasicFramework\Ex14_static\bin\Debug\Ex14_static.pdb
+D:\Ecount\Labs\BasicFramework\Ex14_static\obj\Debug\Ex14_static.csproj.AssemblyReference.cache
+D:\Ecount\Labs\BasicFramework\Ex14_static\obj\Debug\Ex14_static.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\BasicFramework\Ex14_static\obj\Debug\Ex14_static.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\BasicFramework\Ex14_static\obj\Debug\Ex14_static.exe
+D:\Ecount\Labs\BasicFramework\Ex14_static\obj\Debug\Ex14_static.pdb

@@ -1,0 +1,8 @@
+D:\Ecount\Labs\BasicFramework\Ex10_class\bin\Debug\Ex10_class.exe.config
+D:\Ecount\Labs\BasicFramework\Ex10_class\bin\Debug\Ex10_class.exe
+D:\Ecount\Labs\BasicFramework\Ex10_class\bin\Debug\Ex10_class.pdb
+D:\Ecount\Labs\BasicFramework\Ex10_class\obj\Debug\Ex10_class.csproj.AssemblyReference.cache
+D:\Ecount\Labs\BasicFramework\Ex10_class\obj\Debug\Ex10_class.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\BasicFramework\Ex10_class\obj\Debug\Ex10_class.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\BasicFramework\Ex10_class\obj\Debug\Ex10_class.exe
+D:\Ecount\Labs\BasicFramework\Ex10_class\obj\Debug\Ex10_class.pdb

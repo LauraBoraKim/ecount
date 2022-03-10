@@ -1,0 +1,8 @@
+D:\Ecount\Labs\OOPFrameWork\Ex06_try_catch\bin\Debug\Ex06_try_catch.exe.config
+D:\Ecount\Labs\OOPFrameWork\Ex06_try_catch\bin\Debug\Ex06_try_catch.exe
+D:\Ecount\Labs\OOPFrameWork\Ex06_try_catch\bin\Debug\Ex06_try_catch.pdb
+D:\Ecount\Labs\OOPFrameWork\Ex06_try_catch\obj\Debug\Ex06_try_catch.csproj.AssemblyReference.cache
+D:\Ecount\Labs\OOPFrameWork\Ex06_try_catch\obj\Debug\Ex06_try_catch.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\OOPFrameWork\Ex06_try_catch\obj\Debug\Ex06_try_catch.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\OOPFrameWork\Ex06_try_catch\obj\Debug\Ex06_try_catch.exe
+D:\Ecount\Labs\OOPFrameWork\Ex06_try_catch\obj\Debug\Ex06_try_catch.pdb

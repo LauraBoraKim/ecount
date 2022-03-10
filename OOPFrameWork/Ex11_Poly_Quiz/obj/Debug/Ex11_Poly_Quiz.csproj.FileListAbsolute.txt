@@ -1,0 +1,8 @@
+D:\Ecount\Labs\OOPFrameWork\Ex11_Poly_Quiz\bin\Debug\Ex11_Poly_Quiz.exe.config
+D:\Ecount\Labs\OOPFrameWork\Ex11_Poly_Quiz\bin\Debug\Ex11_Poly_Quiz.exe
+D:\Ecount\Labs\OOPFrameWork\Ex11_Poly_Quiz\bin\Debug\Ex11_Poly_Quiz.pdb
+D:\Ecount\Labs\OOPFrameWork\Ex11_Poly_Quiz\obj\Debug\Ex11_Poly_Quiz.csproj.AssemblyReference.cache
+D:\Ecount\Labs\OOPFrameWork\Ex11_Poly_Quiz\obj\Debug\Ex11_Poly_Quiz.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\OOPFrameWork\Ex11_Poly_Quiz\obj\Debug\Ex11_Poly_Quiz.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\OOPFrameWork\Ex11_Poly_Quiz\obj\Debug\Ex11_Poly_Quiz.exe
+D:\Ecount\Labs\OOPFrameWork\Ex11_Poly_Quiz\obj\Debug\Ex11_Poly_Quiz.pdb

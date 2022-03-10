@@ -1,0 +1,8 @@
+D:\Ecount\Labs\BasicFramework\Ex06_Opr\bin\Debug\Ex06_Opr.exe.config
+D:\Ecount\Labs\BasicFramework\Ex06_Opr\bin\Debug\Ex06_Opr.exe
+D:\Ecount\Labs\BasicFramework\Ex06_Opr\bin\Debug\Ex06_Opr.pdb
+D:\Ecount\Labs\BasicFramework\Ex06_Opr\obj\Debug\Ex06_Opr.csproj.AssemblyReference.cache
+D:\Ecount\Labs\BasicFramework\Ex06_Opr\obj\Debug\Ex06_Opr.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\BasicFramework\Ex06_Opr\obj\Debug\Ex06_Opr.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\BasicFramework\Ex06_Opr\obj\Debug\Ex06_Opr.exe
+D:\Ecount\Labs\BasicFramework\Ex06_Opr\obj\Debug\Ex06_Opr.pdb

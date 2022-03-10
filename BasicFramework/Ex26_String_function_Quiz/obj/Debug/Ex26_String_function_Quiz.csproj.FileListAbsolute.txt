@@ -1,0 +1,8 @@
+D:\Ecount\Labs\BasicFrameWork\Ex26_String_function_Quiz\bin\Debug\Ex26_String_function_Quiz.exe.config
+D:\Ecount\Labs\BasicFrameWork\Ex26_String_function_Quiz\bin\Debug\Ex26_String_function_Quiz.exe
+D:\Ecount\Labs\BasicFrameWork\Ex26_String_function_Quiz\bin\Debug\Ex26_String_function_Quiz.pdb
+D:\Ecount\Labs\BasicFrameWork\Ex26_String_function_Quiz\obj\Debug\Ex26_String_function_Quiz.csproj.AssemblyReference.cache
+D:\Ecount\Labs\BasicFrameWork\Ex26_String_function_Quiz\obj\Debug\Ex26_String_function_Quiz.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\BasicFrameWork\Ex26_String_function_Quiz\obj\Debug\Ex26_String_function_Quiz.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\BasicFrameWork\Ex26_String_function_Quiz\obj\Debug\Ex26_String_function_Quiz.exe
+D:\Ecount\Labs\BasicFrameWork\Ex26_String_function_Quiz\obj\Debug\Ex26_String_function_Quiz.pdb

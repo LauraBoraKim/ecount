@@ -1,0 +1,8 @@
+D:\Ecount\Labs\OOPFrameWork\Ex08_Indexer\bin\Debug\Ex08_Indexer.exe.config
+D:\Ecount\Labs\OOPFrameWork\Ex08_Indexer\bin\Debug\Ex08_Indexer.exe
+D:\Ecount\Labs\OOPFrameWork\Ex08_Indexer\bin\Debug\Ex08_Indexer.pdb
+D:\Ecount\Labs\OOPFrameWork\Ex08_Indexer\obj\Debug\Ex08_Indexer.csproj.AssemblyReference.cache
+D:\Ecount\Labs\OOPFrameWork\Ex08_Indexer\obj\Debug\Ex08_Indexer.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\OOPFrameWork\Ex08_Indexer\obj\Debug\Ex08_Indexer.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\OOPFrameWork\Ex08_Indexer\obj\Debug\Ex08_Indexer.exe
+D:\Ecount\Labs\OOPFrameWork\Ex08_Indexer\obj\Debug\Ex08_Indexer.pdb

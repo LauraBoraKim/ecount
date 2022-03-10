@@ -1,0 +1,8 @@
+D:\Ecount\Labs\OOPFrameWork\Ex09_Property_Object_Create\bin\Debug\Ex09_Property_Object_Create.exe.config
+D:\Ecount\Labs\OOPFrameWork\Ex09_Property_Object_Create\bin\Debug\Ex09_Property_Object_Create.exe
+D:\Ecount\Labs\OOPFrameWork\Ex09_Property_Object_Create\bin\Debug\Ex09_Property_Object_Create.pdb
+D:\Ecount\Labs\OOPFrameWork\Ex09_Property_Object_Create\obj\Debug\Ex09_Property_Object_Create.csproj.AssemblyReference.cache
+D:\Ecount\Labs\OOPFrameWork\Ex09_Property_Object_Create\obj\Debug\Ex09_Property_Object_Create.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\OOPFrameWork\Ex09_Property_Object_Create\obj\Debug\Ex09_Property_Object_Create.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\OOPFrameWork\Ex09_Property_Object_Create\obj\Debug\Ex09_Property_Object_Create.exe
+D:\Ecount\Labs\OOPFrameWork\Ex09_Property_Object_Create\obj\Debug\Ex09_Property_Object_Create.pdb
