@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_Collection\Ex01_ArrayList\bin\Debug\Ex01_ArrayList.exe.config
+D:\Ecount\Labs\FrameWork_Collection\Ex01_ArrayList\bin\Debug\Ex01_ArrayList.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex01_ArrayList\bin\Debug\Ex01_ArrayList.pdb
+D:\Ecount\Labs\FrameWork_Collection\Ex01_ArrayList\obj\Debug\Ex01_ArrayList.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex01_ArrayList\obj\Debug\Ex01_ArrayList.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex01_ArrayList\obj\Debug\Ex01_ArrayList.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex01_ArrayList\obj\Debug\Ex01_ArrayList.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex01_ArrayList\obj\Debug\Ex01_ArrayList.pdb
