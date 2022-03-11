@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex01_ArrayList", "Ex01_Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex02_ArrayList_method", "Ex02_ArrayList_method\Ex02_ArrayList_method.csproj", "{967319D0-5E80-42BD-8318-F9B6312216A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex03_ArrayList_Object", "Ex03_ArrayList_Object\Ex03_ArrayList_Object.csproj", "{5B25D83A-021D-4E63-9ED3-79462A34F289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex04_List_generic", "Ex04_List_generic\Ex04_List_generic.csproj", "{D0C72963-858A-40E1-BBB0-8E3318C0D175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{967319D0-5E80-42BD-8318-F9B6312216A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{967319D0-5E80-42BD-8318-F9B6312216A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{967319D0-5E80-42BD-8318-F9B6312216A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B25D83A-021D-4E63-9ED3-79462A34F289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B25D83A-021D-4E63-9ED3-79462A34F289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B25D83A-021D-4E63-9ED3-79462A34F289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B25D83A-021D-4E63-9ED3-79462A34F289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C72963-858A-40E1-BBB0-8E3318C0D175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C72963-858A-40E1-BBB0-8E3318C0D175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C72963-858A-40E1-BBB0-8E3318C0D175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C72963-858A-40E1-BBB0-8E3318C0D175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

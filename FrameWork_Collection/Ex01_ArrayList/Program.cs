@@ -60,6 +60,9 @@ namespace Ex01_ArrayList
             Console.WriteLine("Capacity : {0}", list.Capacity);
 
 
+            Console.WriteLine(list.Contains(50));
+
+
 
             /////////////////////////////////////////////////////////////////
             /// // Creates and initializes a new ArrayList.
@@ -73,6 +76,17 @@ namespace Ex01_ArrayList
             myAL.Add("the");
             myAL.Add("lazy");
             myAL.Add("dog");
+
+
+            if (myAL.Contains("The"))
+            {
+                Console.WriteLine("{0}을 찾았습니다.", myAL);
+            }
+            else
+            {
+                Console.WriteLine("{0}을 찾지 못했습니다.", myAL);
+            }
+
 
             // Displays the ArrayList.
             Console.WriteLine("The ArrayList initially contains the following:");
@@ -98,6 +112,17 @@ namespace Ex01_ArrayList
             // Displays the current state of the ArrayList.
             Console.WriteLine("After removing three elements starting at index 4:");
             PrintValues(myAL);
+
+
+
+
+            //인터페이스의 명시적 구현
+            IList il = list;
+            il.Add(10000);
+            foreach (int item in list)
+            {
+                Console.WriteLine("item : {0}", item);
+            }
 
 
 

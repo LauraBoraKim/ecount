@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_Collection\Ex04_List_generic\bin\Debug\Ex04_List_generic.exe.config
+D:\Ecount\Labs\FrameWork_Collection\Ex04_List_generic\bin\Debug\Ex04_List_generic.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex04_List_generic\bin\Debug\Ex04_List_generic.pdb
+D:\Ecount\Labs\FrameWork_Collection\Ex04_List_generic\obj\Debug\Ex04_List_generic.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex04_List_generic\obj\Debug\Ex04_List_generic.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex04_List_generic\obj\Debug\Ex04_List_generic.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex04_List_generic\obj\Debug\Ex04_List_generic.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex04_List_generic\obj\Debug\Ex04_List_generic.pdb
