@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_IO\Ex02_File_Directory\bin\Debug\Ex02_File_Directory.exe.config
+D:\Ecount\Labs\FrameWork_IO\Ex02_File_Directory\bin\Debug\Ex02_File_Directory.exe
+D:\Ecount\Labs\FrameWork_IO\Ex02_File_Directory\bin\Debug\Ex02_File_Directory.pdb
+D:\Ecount\Labs\FrameWork_IO\Ex02_File_Directory\obj\Debug\Ex02_File_Directory.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_IO\Ex02_File_Directory\obj\Debug\Ex02_File_Directory.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_IO\Ex02_File_Directory\obj\Debug\Ex02_File_Directory.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_IO\Ex02_File_Directory\obj\Debug\Ex02_File_Directory.exe
+D:\Ecount\Labs\FrameWork_IO\Ex02_File_Directory\obj\Debug\Ex02_File_Directory.pdb

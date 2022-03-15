@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_IO\Ex01_File\bin\Debug\Ex01_File.exe.config
+D:\Ecount\Labs\FrameWork_IO\Ex01_File\bin\Debug\Ex01_File.exe
+D:\Ecount\Labs\FrameWork_IO\Ex01_File\bin\Debug\Ex01_File.pdb
+D:\Ecount\Labs\FrameWork_IO\Ex01_File\obj\Debug\Ex01_File.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_IO\Ex01_File\obj\Debug\Ex01_File.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_IO\Ex01_File\obj\Debug\Ex01_File.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_IO\Ex01_File\obj\Debug\Ex01_File.exe
+D:\Ecount\Labs\FrameWork_IO\Ex01_File\obj\Debug\Ex01_File.pdb
