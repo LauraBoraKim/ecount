@@ -9,7 +9,10 @@ namespace Ex01_ArrayList
     class Program
     {
         public static void PrintValues(IEnumerable myList)
+        //POINT  (다형성) IEnumerable 부모 타입으로 가지는 모든 자식은 parameter 올 수 있다
         {
+
+             
             IList li = (IList)myList; //코드 
             Console.WriteLine("count : {0}", li.Count);
 
@@ -26,6 +29,8 @@ namespace Ex01_ArrayList
             //using System.Collections; 아래 있는 자원 
 
             //ArrayList 내부적으로 데이터를 Array 관리
+            //순차적인 데이터의 추가 삭제 성능 ......  
+            //데이터의 추가 ,삭제 중간에 .... linkedlist (노드)
 
             ArrayList list = new ArrayList();
             list.Add(10);

@@ -106,6 +106,9 @@ namespace Ex03_ArrayList_Object
     {
         static void Main(string[] args)
         {
+            //?? add(Object parameter)
+            //1. 많은 메모리
+            //2. boxing unboxing ... 캐스팅 
             ArrayList list = new ArrayList();
             list.Add(new Account("111","홍길동"));
             list.Add(new Account("222","김유신"));

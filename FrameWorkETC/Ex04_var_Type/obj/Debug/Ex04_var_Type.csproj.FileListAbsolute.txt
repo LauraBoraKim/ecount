@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWorkETC\Ex04_var_Type\bin\Debug\Ex04_var_Type.exe.config
+D:\Ecount\Labs\FrameWorkETC\Ex04_var_Type\bin\Debug\Ex04_var_Type.exe
+D:\Ecount\Labs\FrameWorkETC\Ex04_var_Type\bin\Debug\Ex04_var_Type.pdb
+D:\Ecount\Labs\FrameWorkETC\Ex04_var_Type\obj\Debug\Ex04_var_Type.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWorkETC\Ex04_var_Type\obj\Debug\Ex04_var_Type.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWorkETC\Ex04_var_Type\obj\Debug\Ex04_var_Type.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWorkETC\Ex04_var_Type\obj\Debug\Ex04_var_Type.exe
+D:\Ecount\Labs\FrameWorkETC\Ex04_var_Type\obj\Debug\Ex04_var_Type.pdb

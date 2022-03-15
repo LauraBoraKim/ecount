@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWorkETC\Ex03_Singleton\bin\Debug\Ex03_Singleton.exe.config
+D:\Ecount\Labs\FrameWorkETC\Ex03_Singleton\bin\Debug\Ex03_Singleton.exe
+D:\Ecount\Labs\FrameWorkETC\Ex03_Singleton\bin\Debug\Ex03_Singleton.pdb
+D:\Ecount\Labs\FrameWorkETC\Ex03_Singleton\obj\Debug\Ex03_Singleton.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWorkETC\Ex03_Singleton\obj\Debug\Ex03_Singleton.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWorkETC\Ex03_Singleton\obj\Debug\Ex03_Singleton.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWorkETC\Ex03_Singleton\obj\Debug\Ex03_Singleton.exe
+D:\Ecount\Labs\FrameWorkETC\Ex03_Singleton\obj\Debug\Ex03_Singleton.pdb

@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_Collection\Ex05_List_Quiz\bin\Debug\Ex05_List_Quiz.exe.config
+D:\Ecount\Labs\FrameWork_Collection\Ex05_List_Quiz\bin\Debug\Ex05_List_Quiz.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex05_List_Quiz\bin\Debug\Ex05_List_Quiz.pdb
+D:\Ecount\Labs\FrameWork_Collection\Ex05_List_Quiz\obj\Debug\Ex05_List_Quiz.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex05_List_Quiz\obj\Debug\Ex05_List_Quiz.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex05_List_Quiz\obj\Debug\Ex05_List_Quiz.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex05_List_Quiz\obj\Debug\Ex05_List_Quiz.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex05_List_Quiz\obj\Debug\Ex05_List_Quiz.pdb

@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_Collection\Ex06_Collection\bin\Debug\Ex06_Collection.exe.config
+D:\Ecount\Labs\FrameWork_Collection\Ex06_Collection\bin\Debug\Ex06_Collection.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex06_Collection\bin\Debug\Ex06_Collection.pdb
+D:\Ecount\Labs\FrameWork_Collection\Ex06_Collection\obj\Debug\Ex06_Collection.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex06_Collection\obj\Debug\Ex06_Collection.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex06_Collection\obj\Debug\Ex06_Collection.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex06_Collection\obj\Debug\Ex06_Collection.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex06_Collection\obj\Debug\Ex06_Collection.pdb

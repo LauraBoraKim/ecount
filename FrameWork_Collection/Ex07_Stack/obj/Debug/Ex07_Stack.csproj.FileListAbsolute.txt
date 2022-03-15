@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_Collection\Ex07_Stack\bin\Debug\Ex07_Stack.exe.config
+D:\Ecount\Labs\FrameWork_Collection\Ex07_Stack\bin\Debug\Ex07_Stack.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex07_Stack\bin\Debug\Ex07_Stack.pdb
+D:\Ecount\Labs\FrameWork_Collection\Ex07_Stack\obj\Debug\Ex07_Stack.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex07_Stack\obj\Debug\Ex07_Stack.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex07_Stack\obj\Debug\Ex07_Stack.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex07_Stack\obj\Debug\Ex07_Stack.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex07_Stack\obj\Debug\Ex07_Stack.pdb

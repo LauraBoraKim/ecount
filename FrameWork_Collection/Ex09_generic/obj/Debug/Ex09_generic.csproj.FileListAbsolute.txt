@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_Collection\Ex09_generic\bin\Debug\Ex09_generic.exe.config
+D:\Ecount\Labs\FrameWork_Collection\Ex09_generic\bin\Debug\Ex09_generic.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex09_generic\bin\Debug\Ex09_generic.pdb
+D:\Ecount\Labs\FrameWork_Collection\Ex09_generic\obj\Debug\Ex09_generic.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex09_generic\obj\Debug\Ex09_generic.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex09_generic\obj\Debug\Ex09_generic.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_Collection\Ex09_generic\obj\Debug\Ex09_generic.exe
+D:\Ecount\Labs\FrameWork_Collection\Ex09_generic\obj\Debug\Ex09_generic.pdb

@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWorkETC\Ex05_var_List\bin\Debug\Ex05_var_List.exe.config
+D:\Ecount\Labs\FrameWorkETC\Ex05_var_List\bin\Debug\Ex05_var_List.exe
+D:\Ecount\Labs\FrameWorkETC\Ex05_var_List\bin\Debug\Ex05_var_List.pdb
+D:\Ecount\Labs\FrameWorkETC\Ex05_var_List\obj\Debug\Ex05_var_List.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWorkETC\Ex05_var_List\obj\Debug\Ex05_var_List.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWorkETC\Ex05_var_List\obj\Debug\Ex05_var_List.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWorkETC\Ex05_var_List\obj\Debug\Ex05_var_List.exe
+D:\Ecount\Labs\FrameWorkETC\Ex05_var_List\obj\Debug\Ex05_var_List.pdb

@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWorkETC\Ex06_yield\bin\Debug\Ex06_yield.exe.config
+D:\Ecount\Labs\FrameWorkETC\Ex06_yield\bin\Debug\Ex06_yield.exe
+D:\Ecount\Labs\FrameWorkETC\Ex06_yield\bin\Debug\Ex06_yield.pdb
+D:\Ecount\Labs\FrameWorkETC\Ex06_yield\obj\Debug\Ex06_yield.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWorkETC\Ex06_yield\obj\Debug\Ex06_yield.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWorkETC\Ex06_yield\obj\Debug\Ex06_yield.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWorkETC\Ex06_yield\obj\Debug\Ex06_yield.exe
+D:\Ecount\Labs\FrameWorkETC\Ex06_yield\obj\Debug\Ex06_yield.pdb

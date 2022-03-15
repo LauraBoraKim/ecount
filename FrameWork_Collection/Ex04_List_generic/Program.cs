@@ -63,7 +63,7 @@ namespace Ex04_List_generic
             List<int> list3 = new List<int>(array);  //IEnumerable 구현하고 하위자원 올수 있다 (다형성)
             Console.WriteLine(list3.Count);
 
-            //사용
+            //사용  (POINT ^^^^^) : 객체 배열 .....
             List<Account> list4 = new List<Account>();
             list4.Add(new Account("111", "홍길동"));
             list4.Add(new Account("222", "김유신"));
