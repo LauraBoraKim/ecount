@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_IO\Ex08_FileStream_TextReader_Write\bin\Debug\Ex08_FileStream_TextReader_Write.exe.config
+D:\Ecount\Labs\FrameWork_IO\Ex08_FileStream_TextReader_Write\bin\Debug\Ex08_FileStream_TextReader_Write.exe
+D:\Ecount\Labs\FrameWork_IO\Ex08_FileStream_TextReader_Write\bin\Debug\Ex08_FileStream_TextReader_Write.pdb
+D:\Ecount\Labs\FrameWork_IO\Ex08_FileStream_TextReader_Write\obj\Debug\Ex08_FileStream_TextReader_Write.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_IO\Ex08_FileStream_TextReader_Write\obj\Debug\Ex08_FileStream_TextReader_Write.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_IO\Ex08_FileStream_TextReader_Write\obj\Debug\Ex08_FileStream_TextReader_Write.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_IO\Ex08_FileStream_TextReader_Write\obj\Debug\Ex08_FileStream_TextReader_Write.exe
+D:\Ecount\Labs\FrameWork_IO\Ex08_FileStream_TextReader_Write\obj\Debug\Ex08_FileStream_TextReader_Write.pdb

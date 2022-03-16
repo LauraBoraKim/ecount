@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_IO\Ex05_FileStream\bin\Debug\Ex05_FileStream.exe.config
+D:\Ecount\Labs\FrameWork_IO\Ex05_FileStream\bin\Debug\Ex05_FileStream.exe
+D:\Ecount\Labs\FrameWork_IO\Ex05_FileStream\bin\Debug\Ex05_FileStream.pdb
+D:\Ecount\Labs\FrameWork_IO\Ex05_FileStream\obj\Debug\Ex05_FileStream.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_IO\Ex05_FileStream\obj\Debug\Ex05_FileStream.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_IO\Ex05_FileStream\obj\Debug\Ex05_FileStream.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_IO\Ex05_FileStream\obj\Debug\Ex05_FileStream.exe
+D:\Ecount\Labs\FrameWork_IO\Ex05_FileStream\obj\Debug\Ex05_FileStream.pdb
