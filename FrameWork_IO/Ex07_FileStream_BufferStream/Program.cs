@@ -11,19 +11,24 @@ namespace Ex07_FileStream_BufferStream
         static void Main(string[] args)
         {
 
-            byte[] data = new byte[127];
+            byte[] data = new byte[127];  //
             byte[] writedata = new byte[127];
             FileStream file = new FileStream(@"D:\temp\stream.txt", FileMode.OpenOrCreate, FileAccess.Write);
             BufferedStream bs = new BufferedStream(file);
+            
             for (int i = 0; i < 127; i++)
             {
-                data[i] = (byte)(i + 1);
+                data[i] = (byte)(i + 1); // [1][2][3][4]......
             }
+
+
             foreach (byte b in data)
             {
                 Console.WriteLine(b);
             }
-            bs.Write(data, 0, data.Length);
+
+
+            bs.Write(data, 0, data.Length); //
             bs.Close();
 
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++");

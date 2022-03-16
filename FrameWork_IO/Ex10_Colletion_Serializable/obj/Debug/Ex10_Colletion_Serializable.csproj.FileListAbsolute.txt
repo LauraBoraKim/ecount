@@ -1,0 +1,8 @@
+D:\Ecount\Labs\FrameWork_IO\Ex10_Colletion_Serializable\bin\Debug\Ex10_Colletion_Serializable.exe.config
+D:\Ecount\Labs\FrameWork_IO\Ex10_Colletion_Serializable\bin\Debug\Ex10_Colletion_Serializable.exe
+D:\Ecount\Labs\FrameWork_IO\Ex10_Colletion_Serializable\bin\Debug\Ex10_Colletion_Serializable.pdb
+D:\Ecount\Labs\FrameWork_IO\Ex10_Colletion_Serializable\obj\Debug\Ex10_Colletion_Serializable.csproj.AssemblyReference.cache
+D:\Ecount\Labs\FrameWork_IO\Ex10_Colletion_Serializable\obj\Debug\Ex10_Colletion_Serializable.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\FrameWork_IO\Ex10_Colletion_Serializable\obj\Debug\Ex10_Colletion_Serializable.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\FrameWork_IO\Ex10_Colletion_Serializable\obj\Debug\Ex10_Colletion_Serializable.exe
+D:\Ecount\Labs\FrameWork_IO\Ex10_Colletion_Serializable\obj\Debug\Ex10_Colletion_Serializable.pdb

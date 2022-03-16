@@ -11,7 +11,7 @@ namespace Ex08_FileStream_TextReader_Write
         static void Main(string[] args)
         {
 
-            string path = @"D:\temp\aa.txt";
+            string path = @"D:\temp\Lotto.txt";
             using (StreamWriter sw = new StreamWriter(new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write))) {
                 sw.WriteLine("Text 쓰기작업");
                 sw.WriteLine("오늘도 이렇게");
@@ -25,6 +25,7 @@ namespace Ex08_FileStream_TextReader_Write
                 }
 
                 Console.WriteLine("[위치를 통한 출력]");
+
 
                 sr.BaseStream.Seek(3, SeekOrigin.Begin);
 
