@@ -1,0 +1,8 @@
+D:\Ecount\Labs\Delegate_Thread\Ex06_Process_Thread_Info\bin\Debug\Ex06_Process_Thread_Info.exe.config
+D:\Ecount\Labs\Delegate_Thread\Ex06_Process_Thread_Info\bin\Debug\Ex06_Process_Thread_Info.exe
+D:\Ecount\Labs\Delegate_Thread\Ex06_Process_Thread_Info\bin\Debug\Ex06_Process_Thread_Info.pdb
+D:\Ecount\Labs\Delegate_Thread\Ex06_Process_Thread_Info\obj\Debug\Ex06_Process_Thread_Info.csproj.AssemblyReference.cache
+D:\Ecount\Labs\Delegate_Thread\Ex06_Process_Thread_Info\obj\Debug\Ex06_Process_Thread_Info.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\Delegate_Thread\Ex06_Process_Thread_Info\obj\Debug\Ex06_Process_Thread_Info.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\Delegate_Thread\Ex06_Process_Thread_Info\obj\Debug\Ex06_Process_Thread_Info.exe
+D:\Ecount\Labs\Delegate_Thread\Ex06_Process_Thread_Info\obj\Debug\Ex06_Process_Thread_Info.pdb

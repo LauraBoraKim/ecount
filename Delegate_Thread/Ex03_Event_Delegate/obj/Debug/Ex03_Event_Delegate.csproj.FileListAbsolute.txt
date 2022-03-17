@@ -1,0 +1,8 @@
+D:\Ecount\Labs\Delegate_Thread\Ex03_Event_Delegate\bin\Debug\Ex03_Event_Delegate.exe.config
+D:\Ecount\Labs\Delegate_Thread\Ex03_Event_Delegate\bin\Debug\Ex03_Event_Delegate.exe
+D:\Ecount\Labs\Delegate_Thread\Ex03_Event_Delegate\bin\Debug\Ex03_Event_Delegate.pdb
+D:\Ecount\Labs\Delegate_Thread\Ex03_Event_Delegate\obj\Debug\Ex03_Event_Delegate.csproj.AssemblyReference.cache
+D:\Ecount\Labs\Delegate_Thread\Ex03_Event_Delegate\obj\Debug\Ex03_Event_Delegate.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\Delegate_Thread\Ex03_Event_Delegate\obj\Debug\Ex03_Event_Delegate.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\Delegate_Thread\Ex03_Event_Delegate\obj\Debug\Ex03_Event_Delegate.exe
+D:\Ecount\Labs\Delegate_Thread\Ex03_Event_Delegate\obj\Debug\Ex03_Event_Delegate.pdb

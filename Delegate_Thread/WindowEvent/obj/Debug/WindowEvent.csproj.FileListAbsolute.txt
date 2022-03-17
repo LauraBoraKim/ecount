@@ -1,0 +1,11 @@
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\bin\Debug\WindowEvent.exe.config
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\bin\Debug\WindowEvent.exe
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\bin\Debug\WindowEvent.pdb
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\obj\Debug\WindowEvent.csproj.AssemblyReference.cache
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\obj\Debug\WindowEvent.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\obj\Debug\WindowEvent.Form1.resources
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\obj\Debug\WindowEvent.Properties.Resources.resources
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\obj\Debug\WindowEvent.csproj.GenerateResource.cache
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\obj\Debug\WindowEvent.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\obj\Debug\WindowEvent.exe
+D:\Ecount\Labs\Delegate_Thread\WindowEvent\obj\Debug\WindowEvent.pdb

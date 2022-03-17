@@ -1,0 +1,8 @@
+D:\Ecount\Labs\Delegate_Thread\Ex05_Thread_state\bin\Debug\Ex05_Thread_state.exe.config
+D:\Ecount\Labs\Delegate_Thread\Ex05_Thread_state\bin\Debug\Ex05_Thread_state.exe
+D:\Ecount\Labs\Delegate_Thread\Ex05_Thread_state\bin\Debug\Ex05_Thread_state.pdb
+D:\Ecount\Labs\Delegate_Thread\Ex05_Thread_state\obj\Debug\Ex05_Thread_state.csproj.AssemblyReference.cache
+D:\Ecount\Labs\Delegate_Thread\Ex05_Thread_state\obj\Debug\Ex05_Thread_state.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\Labs\Delegate_Thread\Ex05_Thread_state\obj\Debug\Ex05_Thread_state.csproj.CoreCompileInputs.cache
+D:\Ecount\Labs\Delegate_Thread\Ex05_Thread_state\obj\Debug\Ex05_Thread_state.exe
+D:\Ecount\Labs\Delegate_Thread\Ex05_Thread_state\obj\Debug\Ex05_Thread_state.pdb
