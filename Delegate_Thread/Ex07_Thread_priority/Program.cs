@@ -21,6 +21,7 @@ namespace Ex07_Thread_priority
             ThreadStart ts = new ThreadStart(method);
             Thread th = new Thread(ts);
             th.Start();
+            //**
             ProcessThreadCollection ths = proc.Threads;
 
             int ThreadID;

@@ -13,7 +13,7 @@ namespace Ex05_Thread_state
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(i);
-                Thread.Sleep(500);
+                Thread.Sleep(1000);
 
             }
             Console.WriteLine("스레드 종료");

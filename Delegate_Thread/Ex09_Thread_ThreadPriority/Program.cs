@@ -89,11 +89,13 @@ namespace Ex09_Thread_ThreadPriority
             t3.Priority = ThreadPriority.Highest;
             t1.Priority = ThreadPriority.Lowest;
 
-            t1.Start();
-            t2.Start();
-            t4.Start();
-            t5.Start();
-            t3.Start();
+            t1.Start();  //경주마1
+            t2.Start();  //경주마2
+            t4.Start();  //경주마3 
+            t5.Start();  //경주마4
+            t3.Start();  //경주마5
+
+
         }
     }
 }

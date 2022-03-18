@@ -19,6 +19,7 @@ namespace Ex06_Process_Thread_Info
             Console.WriteLine(proc.HasExited);
 
             //문제 : Process.GetProcesses();
+            
             Process[] pros = Process.GetProcesses();
 
             Console.WriteLine("[전체 프로세스 정보]");
@@ -26,7 +27,7 @@ namespace Ex06_Process_Thread_Info
             {
                 Console.WriteLine("{0}", p.ProcessName);
             }
-
+           
         }
     }
 }

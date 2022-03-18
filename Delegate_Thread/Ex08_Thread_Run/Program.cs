@@ -15,7 +15,7 @@ namespace Ex08_Thread_Run
             for (int i = 0; i < 50; i++)
             {
                 Console.WriteLine("첫번째 스레드:{0}", i);
-                //Thread.Sleep(100);
+                Thread.Sleep(100);
             }
 
         }

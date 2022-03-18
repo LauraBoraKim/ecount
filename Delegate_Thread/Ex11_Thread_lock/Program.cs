@@ -32,8 +32,8 @@ namespace Ex11_Thread_lock
             {
                 throw new Exception("인출 가능 금액이 없습니다");
             }
-           // lock (this)
-           // {
+            lock (this)
+            {
                 if (this.money >= amount)
                 {
                     Console.WriteLine("{0}님이 {1}를 인출하려고 합니다", Thread.CurrentThread.Name, amount);
@@ -47,7 +47,7 @@ namespace Ex11_Thread_lock
                 {
                     return 0; //인출금액 현재 보다 많은 경우
                 }
-           // }
+            }
         }
 
         public void Trans()
