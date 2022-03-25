@@ -2498,6 +2498,15 @@ as
 
 sp_helpconstraint dept
 
+declare @result int
+exec @result = usp_dept_insert 100,'IT','SEOUL'
+select @result  --0 정상 ... 에러번호  2627번
+
+select * from dept
+
+--에러메시지 보고 싶어요
+
+
 /*
 
 alter table dept
@@ -2513,4 +2522,326 @@ add constraint fk_emp_deptno foreign key(deptno) references dept(deptno)
 */
 
 
+
+create proc usp_dept_insert2
+@deptno int,
+@dname varchar(20),
+@loc varchar(20),
+@message varchar(200) output
+as
+
+	begin try
+		insert into dept(deptno , dname, loc)
+		values(@deptno , @dname , @loc)
+	end try
+	begin catch
+		set @message = ERROR_MESSAGE()
+	end catch
+
+declare @msg varchar(200)
+exec usp_dept_insert2 200,'IT','BUSAN',@msg output
+select @msg  --PRIMARY KEY 제약 조건 'pk_dept_deptno'을(를) 위반했습니다. 개체 'dbo.DEPT'에 중복 키를 삽입할 수 없습니다. 중복 키 값은 (200)입니다.
+
+
+--emp 테이블에 부서번호  update   하는 procedure 생성하세요
+--로직은 마음대로 ...
+
+create proc usp_dept_insert3@deptno int,@dname varchar(20),@loc varchar(20),@message varchar(200) outputas	begin try		if (@deptno in (select DEPTNO from DEPT))		begin			set @message = '이미 있는 부서번호 입니다'		end	else		begin			insert into DEPT(DEPTNO,DNAME,LOC) values(@deptno,@dname,@loc)			set @message = '데이터 정상 삽입 완료'		end	end try	begin catch		set @message = ERROR_MESSAGE()	end catch	declare @msg varchar(200)exec usp_dept_insert3 300,'IT','CHANGWON',@msg outputselect @msg
+
+
+
+create proc usp_updateNo
+ @empno int,
+ @newno int,
+ @message varchar(200) output
+ as
+	begin try
+		update emp
+		set empno = @newno where empno = @empno
+	end try
+	begin catch
+		set @message = ERROR_MESSAGE()
+	end catch
+
+declare @msg varchar(200)
+exec usp_updateNo 7788, 8917, @msg
+select @msg
+
+alter table emp
+add constraint pk_emp_empno primary key(empno)
+
+
+--동적 프로시져
+
+declare @dbname varchar(20) , @tablename varchar(20)
+set @dbname = 'kosadb'
+set @tablename = 'emp'
+exec ('use ' + @dbname + ' select * from ' + @tablename)
+
+create proc usp_db_table
+@dbname varchar(20) , 
+@tablename varchar(20)
+as
+   exec ('use ' + @dbname + ' select * from ' + @tablename)
+
+exec usp_db_table 'pubs','titles'
+
+exec usp_db_table 'kosadb','emp'
+
+create proc usp_top_select
+@count int
+as
+	select top(@count) * from emp
+	order by sal desc
+
+exec usp_top_select 5
+
+
+
+
+
+
+
+use kosadb
+
+Create Table Info
+(
+	userID		varchar(20)		not null primary key,
+	Name		varchar(20)		not null,
+	password	varchar(30)		not null,
+	email		varchar(20)		not null,
+	mobile		varchar(13)		not null,
+	zipCode		char(7)			not null,
+	address		varchar(50)		not null,
+	iDate		DateTime		not null,
+	uDate		DateTime		not null
+)
+go
+
+	
+Create Table Active
+(
+	userID		varchar(20)		not null primary key
+)
+go
+
+Create Table Deleted
+(
+	userID		varchar(20)		not null primary key
+)
+go
+
+
+--회원데이타를 다루기 위한 저장프로시져들 
+create Proc up_Get_UsersInfo
+(
+	@userID		varchar(20)
+)
+as
+	select userID, Name, password, email, mobile, zipCode, address, iDate, uDate
+	from Info where userid=@userID
+go
+
+
+Create PROC up_Get_LoginChk
+	@UserID   varchar (20), 
+	@Password varchar (30), 
+	@iRet int output
+AS
+	SET @iRet = 0  
+		IF NOT EXISTS(SELECT * FROM Active WHERE UserID  =  @UserID)
+			SET @iRet  = -1 
+		ELSE
+	BEGIN  
+		IF NOT EXISTS(SELECT PASSWORD FROM Info WHERE USERID  = @UserID AND PASSWORD  =@Password)
+			SET @iRet  = -2 
+		ELSE 		
+			SET @iRet  = 1 
+	END 
+go
+
+
+--이미 등록된 유저의 경우(userID:-1, email:-2)
+Create Proc up_Add_UsersInfo
+(
+	@userID			varchar(20),
+	@New_Name		varchar(20),
+	@New_Password	varchar(30),
+	@New_Email		varchar(20),
+	@New_Mobile		varchar(13),
+	@New_ZipCode	varchar(7),
+	@New_Address	varchar(50),
+	@iRetmsg		int output
+)
+as
+	SET @iRetmsg = 0 
+	    IF(EXISTS(SELECT USERID FROM INFO  WHERE UserID = @userID))
+			SET @iRetmsg = -1 
+		ELSE IF (EXISTS(SELECT email   FROM INFO  WHERE email = @New_Email))
+			SET @iRetmsg = -2
+		ELSE
+			BEGIN 
+				BEGIN TRAN
+						INSERT INTO Info(userID, Name, password, email, mobile, zipCode, address, idate, udate) 
+						VALUES (@userID, @New_Name, @New_password, @New_email, @New_mobile, @New_zipCode, @New_address,	GetDate(), GetDate())
+							SET @iRetmsg = @@RowCount  --반영된 행의 개수 
+						IF @iRetmsg >= 1 
+							BEGIN 
+								INSERT INTO Active( UserID ) VALUES ( @userID ) --회원가입 성공시
+								SET @iRetmsg = @@RowCount
+							END
+					    ELSE 
+							SET @iRetmsg = 0 
+							IF @iRetmsg < 1
+							  begin
+								ROLLBACK TRAN
+							  end	
+
+				COMMIT TRAN 
+		END
+go 
+
+Create Proc up_Update_UsersInfo
+(
+	@userID			varchar(20),
+	@New_Name		varchar(20),
+	@New_Password	varchar(30),
+	@New_Email		varchar(20),
+	@New_Mobile		varchar(13),
+	@New_ZipCode	varchar(7),
+	@New_Address	varchar(50)
+)
+as
+	UPDATE Info 
+	SET Name=@New_Name, password=@New_Password, email=@New_Email, 
+	    mobile=@New_Mobile, zipCode=@New_Zipcode, address=@New_Address
+    WHERE userID=@userID
+go
+
+
+Create Proc up_Delete_UsersInfo
+(
+	@userID		varchar(20)
+)
+as
+	EXEC up_Delete_UsersActive @userID
+	EXEC up_Delete_UsersDeleted @userID
+	
+	DELETE FROM Info
+	WHERE userID=@userID
+go
+
+Create Proc up_Delete_UsersActive
+(
+	@userID		varchar(20)
+)
+as
+	DELETE FROM Active WHERE userID=@userID
+go 
+
+Create Proc up_Delete_UsersDeleted
+(
+	@userID		varchar(20)
+)
+as
+	DELETE FROM Deleted WHERE userID=@userID
+go 
+
+
+--우편번호 검색을 위한 프로시져 
+/*
+Create Proc up_GetList_PostCode_Search
+(
+	@juso	varchar(50)
+)
+as
+	Select zipCode, zipSerial, sido, gugun, dong, ri, doseo, bungi, building, juso 
+	From PostCode 
+	Where juso like '%'+ LTrim(RTrim(@juso))+'%'
+
+
+--test
+exec up_GetList_PostCode_Search '역삼'
+*/
+
+--1. 회원가입
+
+
+declare @returnvalue int
+exec up_Add_UsersInfo 'hong','홍길동','1004','hong@naver.com','010-123-1234','123-123','서울시 강남구',@returnvalue output
+select @returnvalue 
+
+
+declare @returnvalue int
+exec up_Add_UsersInfo 'hong2','홍길동','1004','hong@naver.com','010-123-1234','123-123','서울시 강남구',@returnvalue output
+select @returnvalue   --  -2
+
+select * from info
+select * from active
+
+exec up_Get_UsersInfo 'hong'
+
+
+
+exec up_Update_UsersInfo 'hong','홍길동2','1004','hong@naver.com','010-111-1111','123-123','서울시 종로구'
+
+
+
+exec up_Get_UsersInfo 'hong'
+
+
+exec up_Delete_UsersInfo 'hong'
+
+select * from info
+select * from active
+
+--프로시져를 사용한 CRUD
+--create >> insert
+--read   >> select
+--udate  >> update
+--delete >> delete
+
+--단일 테이블에서 대해서 .... 5개의 기능
+/*
+C# Model 구성 (DAO > C# > 함수 
+
+회원테이블 member
+
+public  List<member> getAllMember(){
+   쿼리 ..... select * from emp
+}
+
+public member getAllMemberByUserid(string userid){
+   퀴리  .... select * from emp where empno=7788
+} 
+public int insertMemmber(member m){
+   쿼리
+}
+
+
+전체 데이터 조회  (select * from emp)
+단일 데이터 조회  (select * from emp where empno=7788) PK 
+삽입              (insert
+삭제              (delete    
+수정              (update
+
+추가
+검색들
+문자열검색 , 조건(이름 , 나이 ..)
+
+*/
+
+--게시판 가정
+create table kosaboard(
+  boardid int identity(1,1) constraint pk_kosaboard_boardid primary key,
+  title nvarchar(30) not null,
+  content nvarchar(2000) not null,
+  userid nvarchar(20) not null,
+  regdate datetime default getdate(),
+  filename nvarchar(30) 
+)
+
+--프로시져 5개 (조별) 
+--배운것 활용해서 실무에 가깝게
+--검색 .....
 
