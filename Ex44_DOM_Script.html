@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function displayDate() {
+            console.log("Call");
+            document.getElementById("demo").innerHTML = new Date();
+        }
+
+        //document.getElementById("mybtn2").onclick = displayDate(); 순서
+
+        window.onload = function () {
+           // document.getElementById("mybtn2").onclick = function(){}
+        }
+    </script>
+</head>
+<body>
+    <button id="mybtn" onclick="displayDate()">inline방식 호출</button>
+    <br />
+    <button id="mybtn2">함수 호출</button>
+    <br />
+    <p id="demo"></p>
+</body>
+<script>
+
+    //displayDate(); 함수 호출
+
+    //document.getElementById("mybtn2").onclick = displayDate(); //()가지고 있으면 실행 함수(호출)
+
+    document.getElementById("mybtn2").onclick = displayDate; //괄호 (x)
+</script>
+</html>

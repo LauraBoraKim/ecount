@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        /*
+         https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+         You can add many event handlers to one element.
+         You can add many event handlers of the same type to one element, i.e two "click" events.
+         */ 
+    </script>
+</head>
+<body>
+        <button id="myBtn">클릭</button>
+        <p id="demo"></p>
+</body>
+        <script>
+                //1. 하나의 요소에 여러개의  event를 추가할 수 있다
+                //2. 이벤트가 더 이상 필요없다면 removeEventListener() 통해서 제거 가능
+
+            //document.getElementById("myBtn").onclick = 
+            document.getElementById("myBtn").addEventListener("click", displayDate);
+
+            //element.addEventListener(event, function, useCapture);
+
+            function displayDate() {
+                document.getElementById("demo").innerHTML = "hello world";
+            }
+        </script>
+</html>
