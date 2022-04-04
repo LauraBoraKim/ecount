@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <ul id="mylist"><li>coffee</li><li>tea</li><li>milk</li></ul>
+    <button onclick="myFunc()">클릭</button>
+    <button onclick="myFunc2()">클릭2</button>
+</body>
+    <script>
+        function myFunc() {
+            let list = document.getElementById("mylist");
+            console.log(list); //<ul id="mylist"><li>coffee</li><li>tea</li><li>milk</li></ul>
+            list.removeChild(list.childNodes[0]);
+
+
+            //childNodes[0] , childNodes[1]
+            //하위요소 (태그 배열) : select > option 들 , ul > li 들  , ol > li 들
+
+            /*
+             <ul>
+                <li>A</li> [0]
+                <li>B</li> [1] 삭제
+                <li>C</li> [2]
+             </ul> 
+             
+              <ul>
+                <li>A</li> [0]  삭제
+                <li>C</li> [1]
+             </ul>
+
+             <ul>
+                <li>C</li> [0]
+             </ul>
+             */ 
+        }
+
+        function myFunc2() {
+            let textnode = document.createTextNode("water");
+            //  <ul id="mylist"><li>coffee</li><li>tea</li><li>milk</li></ul>
+            //  <ul id="mylist"><li>water</li><li>tea</li><li>milk</li></ul>  결과
+            let item = document.getElementById("mylist").childNodes[0];
+
+            console.log(item); //<li>coffee</li>
+            //replaceChild 
+            console.log(item.childNodes[0]) //coffee
+
+            item.replaceChild(textnode, item.childNodes[0]);
+
+        }
+    </script>
+</html>

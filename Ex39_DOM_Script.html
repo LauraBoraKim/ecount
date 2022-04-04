@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .democlass {
+            color:red;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+           // document.getElementsByTagName("h1")[0].removeAttribute("class");
+           // document.getElementsByTagName("h1") 결과가 Array
+
+            /*
+            let arr = document.getElementsByTagName("h1");
+            console.log(arr);
+            for (let i = 0; i < arr.length; i++) {
+                arr[i].removeAttribute('class');
+            }
+            */
+
+            /*
+            삭제 문제 발생  
+            let arr = document.getElementsByTagName("h1");
+            for (let index in arr) {
+                //console.log(index);
+                document.getElementById("div").removeChild(arr[index]);
+            }
+            */
+            //삭제 순서 : 0 - > 1 - > 2 
+            //[0][1][2]
+            //[Hello World_1][Hello World_2][Hello World_3]
+
+            //[0][1]
+            //[Hello World_2][Hello World_3]
+
+            //[0]
+            //[Hello World_3]
+
+            //해결하는 코드
+            //뒤에서 삭제 ....
+            //[0][1][2]
+            //[0][1]    >> [2]삭제
+            //[0]       >> [1]삭제
+            //[0]삭제
+
+
+            /*
+            let arr = document.getElementsByTagName("h1");
+            for (let index in arr) {
+                if (arr.length > 0) {
+                    console.log("index : " + index + " / " + arr.length + " / " + (arr.length - 1));
+                    document.getElementById("div").removeChild(arr[arr.length - 1]);
+                }
+            }
+            */
+
+            let arr = document.getElementsByTagName("h1");
+            const len = arr.length;
+            for (let i = 0; i < len; i++) {
+                arr[arr.length - 1].remove(); //자기자신 삭제 (상위 요소가 필요 없어요)
+            }
+            //////////////////////////////////////////////
+
+        }
+
+    </script>
+</head>
+<body>
+    <div id="div">
+        <h1 class="democlass">Hello World_1</h1>
+        <h1 class="democlass">Hello World_2</h1>
+        <h1 class="democlass">Hello World_3</h1>
+    </div>
+</body>
+   
+</html>
