@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #myDiv1, #myDiv2 {
+            background-color: gold;
+            padding: 50px;
+        }
+
+        #myP1, #myP2 {
+            background-color: white;
+            font-size: 20px;
+            border: 1px solid;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>JavaScript addEventListener()</h2>
+
+    <div id="myDiv1">
+        <h2>Bubbling:</h2>
+        <p id="myP1">Click me!</p>
+    </div><br>
+
+    <div id="myDiv2">
+        <h2>Capturing:</h2>
+        <p id="myP2">Click me!</p>
+    </div>
+</body>
+    <script>
+        document.getElementById("myP1").addEventListener("click", function () {
+            alert("click white element!");
+        }, false); //default  bubble
+
+        document.getElementById("myDiv1").addEventListener("click", function () {
+            alert("click gold element!");
+        }, false); //default  bubble
+
+
+        document.getElementById("myP2").addEventListener("click", function () {
+            alert("click white Capturing element!");
+        }, true); //default  bubble Capturing 하고 싶으면 옵션  true
+
+        document.getElementById("myDiv2").addEventListener("click", function () {
+            alert("click gold Capturing element!");
+        }, true); //default  bubble  Capturing 하고 싶으면 옵션  true
+    </script>
+</html>

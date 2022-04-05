@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        /*
+         try{
+              //예외발생 ...예외객체가 [자동 new 그 객체의 주소]를 catch
+         }catch(Exception e){
+              //문제 확인
+         } 
+          
+         javascript >> 사건이 발생(click , mouseover) >> 내부적으로 객체 생성 >> Event 객체
+         >> 객체안에 다양한 정보 (누가 사건, 사건 주체, 영향 ......)
+
+         window.event.메서드
+         window.event.속성
+
+         */
+        window.onload = function () {
+            let btn = document.getElementById("mybtn");
+            btn.onclick = function (e) { //Event객체 자동 생성 >> 생성된 객체의 주소 >> e 변수 
+                console.log(e.type); //이벤트 종류 (click, mouseover , dbclick)
+                console.log(e.target);//<span></span>
+                console.log(e.currentTarget); //<button id="mybtn"><span>눌러봐</span></button>
+                console.log(e.x);
+                console.log(e.y);
+            }
+
+            let btn2 = document.getElementById("mybtn2");
+            let handler = function (event) {  //event 객체 주소를 받을 거예요
+                switch (event.type) {
+                    case "click": alert("클릭");
+                        break;
+                    case "mouseover": event.target.style.backgroundColor = "red";
+                        break;
+                    case "mouseout": event.target.style.backgroundColor = "";
+                        break;
+                }
+            }
+
+
+            btn2.onclick = handler;
+            btn2.onmouseover = handler;
+            btn2.onmouseout = handler;
+
+            //btn2.onclick = function () { }
+            //btn2.onmouseover = function () {  }
+            //btn2.onmouseout = function () { }
+        }
+
+    </script>
+</head>
+<body>
+    <button id="mybtn"><span>눌러봐</span></button>
+    <br />
+    <button id="mybtn2">눌러봐2</button>
+</body>
+</html>
