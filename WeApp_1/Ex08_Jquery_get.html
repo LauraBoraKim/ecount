@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        /*
+          jQuery.get( url [, data ] [, success ] [, dataType ] )
+          전송방식 : GET  >> open("GET" ....)
+         */ 
+        $(function () {
+            $('#btn').click(function () {
+                //비동기 함수
+                $.get("Ex08_Company.xml", function (responsedata) { //callback 함수 
+                    //응답이 왔고 .. 성공(정상)...
+                    console.log(responsedata);
+                    //복습
+                    $('#display').empty(); //자식 요소 제거
+                    console.log($(responsedata).find('Company')); //Array 형태로 리턴
+
+                    $(responsedata).find('Company').each(function () {
+                        //학습 this
+                        //console.log(this);
+                        let entry = $(this);
+
+                        let html = "<div>" + entry.attr('CompanyType') + "</div>";
+                        html += "<div>" + entry.find('CompanyName').text() + "</div>";
+                        html += "<div>" + entry.find('CompanyNumber').text() + "</div>";
+                        html += "<div>" + entry.find('CompanyAddress').text() + "</div>";
+                        html += "<div>" + entry.find('Name').text() + "</div>";
+
+                        $('#display').append(html);
+                    });
+
+
+                });
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <input type="button" id="btn" value="회사소개" />
+    <div id="display" style="background-color:dimgrey">DATA</div>
+</body>
+</html>
