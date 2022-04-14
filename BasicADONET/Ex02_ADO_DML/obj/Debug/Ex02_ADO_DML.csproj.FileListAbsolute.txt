@@ -1,0 +1,11 @@
+D:\Ecount\BasicADONET\Ex02_ADO_DML\bin\Debug\Ex02_ADO_DML.exe.config
+D:\Ecount\BasicADONET\Ex02_ADO_DML\bin\Debug\Ex02_ADO_DML.exe
+D:\Ecount\BasicADONET\Ex02_ADO_DML\bin\Debug\Ex02_ADO_DML.pdb
+D:\Ecount\BasicADONET\Ex02_ADO_DML\obj\Debug\Ex02_ADO_DML.csproj.AssemblyReference.cache
+D:\Ecount\BasicADONET\Ex02_ADO_DML\obj\Debug\Ex02_ADO_DML.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\BasicADONET\Ex02_ADO_DML\obj\Debug\Ex02_ADO_DML.csproj.CoreCompileInputs.cache
+D:\Ecount\BasicADONET\Ex02_ADO_DML\obj\Debug\Ex02_ADO_DML.exe
+D:\Ecount\BasicADONET\Ex02_ADO_DML\obj\Debug\Ex02_ADO_DML.pdb
+D:\Ecount\BasicADONET\Ex02_ADO_DML\bin\Debug\DBCONNLIB.dll
+D:\Ecount\BasicADONET\Ex02_ADO_DML\bin\Debug\DBCONNLIB.pdb
+D:\Ecount\BasicADONET\Ex02_ADO_DML\obj\Debug\Ex02_ADO_DML.csproj.CopyComplete

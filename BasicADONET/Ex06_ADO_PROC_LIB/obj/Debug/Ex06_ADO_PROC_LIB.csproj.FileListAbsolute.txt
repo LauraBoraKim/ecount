@@ -1,0 +1,8 @@
+D:\Ecount\BasicADONET\Ex06_ADO_PROC_LIB\bin\Debug\Ex06_ADO_PROC_LIB.exe.config
+D:\Ecount\BasicADONET\Ex06_ADO_PROC_LIB\bin\Debug\Ex06_ADO_PROC_LIB.exe
+D:\Ecount\BasicADONET\Ex06_ADO_PROC_LIB\bin\Debug\Ex06_ADO_PROC_LIB.pdb
+D:\Ecount\BasicADONET\Ex06_ADO_PROC_LIB\obj\Debug\Ex06_ADO_PROC_LIB.csproj.AssemblyReference.cache
+D:\Ecount\BasicADONET\Ex06_ADO_PROC_LIB\obj\Debug\Ex06_ADO_PROC_LIB.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\BasicADONET\Ex06_ADO_PROC_LIB\obj\Debug\Ex06_ADO_PROC_LIB.csproj.CoreCompileInputs.cache
+D:\Ecount\BasicADONET\Ex06_ADO_PROC_LIB\obj\Debug\Ex06_ADO_PROC_LIB.exe
+D:\Ecount\BasicADONET\Ex06_ADO_PROC_LIB\obj\Debug\Ex06_ADO_PROC_LIB.pdb

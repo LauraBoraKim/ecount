@@ -1,0 +1,8 @@
+D:\Ecount\BasicADONET\Ex01_ADO_Basic\bin\Debug\Ex01_ADO_Basic.exe.config
+D:\Ecount\BasicADONET\Ex01_ADO_Basic\bin\Debug\Ex01_ADO_Basic.exe
+D:\Ecount\BasicADONET\Ex01_ADO_Basic\bin\Debug\Ex01_ADO_Basic.pdb
+D:\Ecount\BasicADONET\Ex01_ADO_Basic\obj\Debug\Ex01_ADO_Basic.csproj.AssemblyReference.cache
+D:\Ecount\BasicADONET\Ex01_ADO_Basic\obj\Debug\Ex01_ADO_Basic.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\BasicADONET\Ex01_ADO_Basic\obj\Debug\Ex01_ADO_Basic.csproj.CoreCompileInputs.cache
+D:\Ecount\BasicADONET\Ex01_ADO_Basic\obj\Debug\Ex01_ADO_Basic.exe
+D:\Ecount\BasicADONET\Ex01_ADO_Basic\obj\Debug\Ex01_ADO_Basic.pdb

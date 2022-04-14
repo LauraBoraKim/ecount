@@ -1,0 +1,11 @@
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\bin\Debug\Ex04_ADO_PROC.exe.config
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\bin\Debug\Ex04_ADO_PROC.exe
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\bin\Debug\Ex04_ADO_PROC.pdb
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\bin\Debug\DBCONNLIB.dll
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\bin\Debug\DBCONNLIB.pdb
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\obj\Debug\Ex04_ADO_PROC.csproj.AssemblyReference.cache
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\obj\Debug\Ex04_ADO_PROC.csproj.SuggestedBindingRedirects.cache
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\obj\Debug\Ex04_ADO_PROC.csproj.CoreCompileInputs.cache
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\obj\Debug\Ex04_ADO_PROC.csproj.CopyComplete
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\obj\Debug\Ex04_ADO_PROC.exe
+D:\Ecount\BasicADONET\Ex04_ADO_PROC\obj\Debug\Ex04_ADO_PROC.pdb
