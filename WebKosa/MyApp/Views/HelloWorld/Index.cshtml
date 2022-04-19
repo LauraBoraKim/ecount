@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>HelloWorld Index Page</h3>
+<p>@ViewBag.Title</p>
+<!--
+주석
+
+-->
+@*
+    요청을 비동기 처리하세요
+    //http://localhost:51315/HelloWorld/ajaxMethod?name=kglim
+
+    //{"Name":"kglim","DateTime":"2022-04-19 오후 12:25:08"} 받아서 화면 출력
+
+    레이져 문법 주석
+    jquery ajax 함수 사용
+    /HelloWorld/ajaxMethod
+    parameter name=""
+
+    <input type="text" id="txtName" ...
+    <input type="button" id="btn" ..
+
+    비동기 요청
+
+    리턴된 값은 화면 출력 ... console.log()
+
+*@
+
+<input type="text" id="txtName" />
+<input type="button" id="btnGet" value="Get Current Time" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+        $(function () {
+            $("#btnGet").click(function () {
+                $.ajax({
+                    type: "POST",
+                    url: "/HelloWorld/ajaxMethod",
+                    data: '{name: "' + $("#txtName").val() + '" }',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        alert("Hello: " + response.Name + " .\nCurrent Date and Time: " + response.DateTime);
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+            });
+        });
+</script>

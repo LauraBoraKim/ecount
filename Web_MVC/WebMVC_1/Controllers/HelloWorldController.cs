@@ -11,9 +11,10 @@ namespace WebMVC_1.Controllers
 
 
         //GET: HelloWorld
-        public string Index()
+        public ActionResult Index()
         {
-            return "<b>my site create .....</b>";
+            //return "<b>my site create .....</b>";
+            return View();
         }
 
         //GET: localhost:97494/HelloWorld/welcome/
@@ -28,7 +29,7 @@ namespace WebMVC_1.Controllers
         //http://localhost:52740/HelloWorld/welcome/100?name=kglim
 
         //http://localhost:52740/HelloWorld/welcome/king/100
-        public string welcome(string name, int ID = 1)
+        public string welcome(string name, int ID = 1) //순서
         {
             //return "action method return string";
             return HttpUtility.HtmlEncode("Hello " + name + " ID : " + ID);
