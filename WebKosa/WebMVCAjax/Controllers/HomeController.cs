@@ -32,8 +32,8 @@ namespace WebMVCAjax.Controllers
         }
 
         //데이터 추가
-        public JsonResult Add(Employee emp) { 
-
+        public JsonResult Add(Employee emp) {
+            //new Employee {ename=aaa}
             return Json(empDB.Add(emp), JsonRequestBehavior.AllowGet); 
         }
 

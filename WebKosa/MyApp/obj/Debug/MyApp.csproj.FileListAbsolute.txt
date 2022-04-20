@@ -84,3 +84,7 @@ D:\Ecount\WebKosa\MyApp\obj\Debug\MyApp.csproj.CoreCompileInputs.cache
 D:\Ecount\WebKosa\MyApp\obj\Debug\MyApp.csproj.CopyComplete
 D:\Ecount\WebKosa\MyApp\obj\Debug\MyApp.dll
 D:\Ecount\WebKosa\MyApp\obj\Debug\MyApp.pdb
+D:\Ecount\WebKosa\MyApp\bin\EntityFramework.dll
+D:\Ecount\WebKosa\MyApp\bin\EntityFramework.SqlServer.dll
+D:\Ecount\WebKosa\MyApp\bin\EntityFramework.xml
+D:\Ecount\WebKosa\MyApp\bin\EntityFramework.SqlServer.xml

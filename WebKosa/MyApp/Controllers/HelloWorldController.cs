@@ -83,11 +83,26 @@ namespace MyApp.Controllers
     
         }
 
+        //http://localhost:51315/HelloWorld/UserData
         public ActionResult UserData() {
 
-            var myuser = new User();
-            myuser.UserNo = 100;
-            myuser.UserName = "김유신";
+            //1. 요청함수 (Action) 만든 데이터  View 전달
+
+            //1. 요청 받기 
+
+            //2. 데이터 처리 
+            //2.1 클라이언트에서 넘어온 데이터  
+            // parameter    public ActionResult UserData(string a, string b)
+            // url http://localhost:51315/HelloWorld/UserData/100/200/300   
+
+            //2.2.DAO를 통해서 생성된 데이터 
+            //Model 에 객체 요청 >>  EmpData.cs >> CRUD  구현 
+            //EmpData emp = new EmpData();
+            //List<emp> emplist= emp.list();
+
+            //3. 데이터 전달 (view) >> *.chtml (razor 문법)
+            //3.1 ViewBag.emp = emplist
+            //3.2  return View(emplist);
 
             //ViewBag.User = myuser;  
 
@@ -98,6 +113,12 @@ namespace MyApp.Controllers
             //View(myuser)
             //view.chtml > @Model.UserNo
             //view.chtml > @Model.UserName
+
+
+            var myuser = new User();
+            myuser.UserNo = 100;
+            myuser.UserName = "김유신";
+
 
             return View(myuser);
         }
