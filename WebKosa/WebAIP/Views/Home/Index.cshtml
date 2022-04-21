@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ASP.NET Web API</title>
+    <link href="../../Content/Site.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-3.4.1.min.js" type="text/javascript">
+        // 여기에 스크립트를 추가할 것이다.
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // AJAX 요청을 전송한다.
+            $.getJSON("/api/products/",
+                function (data) {
+                    // 요청이 성공하면, 'data' 변수에 제품들의 목록이 담긴다.
+                    $.each(data, function (key, val) {
+
+                        // 텍스트 출력을 위해 형식을 바꾼다.
+                        var str = val.Name + ': $' + val.Price;
+
+                        // 각 제품에 대한 목록 항목을 추가한다.
+                        $('<li/>', { text: str })
+                            .appendTo($('#products'));
+                    });
+                });
+        });
+
+        function find() {
+            var id = $('#prodId').val();
+            $.getJSON("/api/products/" + id,
+                function (data) {
+                    var str = data.Name + ': $' + data.Price;
+                    $('#product').text(str);
+                })
+                .fail(
+                    function (jqXHR, textStatus, err) {
+                        $('#product').text('Error: ' + err);
+                    });
+        }
+    </script>
+</head>
+<body id="body">
+    <div class="main-content">
+        <div>
+            <h1>All Products</h1>
+            <ul id="products" />
+        </div>
+        <div>
+            <label for="prodId">ID:</label>
+            <input type="text" id="prodId" size="5" />
+            <input type="button" value="Search" onclick="find();" />
+            <p id="product" />
+        </div>
+    </div>
+</body>
+</html>
+
+@*
+        URI	HTTP 메서드	액션 메서드
+        /api/products	GET	    GetAllProducts()
+        /api/products/1	GET	    GetProductById(1)
+        /api/products?category=hardware	GET	    GetProductsByCategory("hardware")
+
+        URI	HTTP 메서드	액션 메서드
+       /api/products/	POST	405 Method Not Allowed
+       /api/users/	GET	404 Not Found
+       /api/products/abc	GET	400 Bad Request
+*@
